@@ -41,19 +41,19 @@ const Navbar = () => {
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
+              <li className="ml-10 text-xl uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-xl uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/about">
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
+              <li className="ml-10 text-xl uppercase hover:border-b">About</li>
             </Link>
             {/* Medium blog here */}
             <Link href="/">
-              <li className="ml-10 text-sm uppercase hover:border-b">Blog</li>
+              <li className="ml-10 text-xl uppercase hover:border-b">Blog</li>
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
@@ -96,23 +96,23 @@ const Navbar = () => {
           <div className="py-4 flex flex-col">
             <ul className="uppercase">
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-xl">
                   Home
                 </li>
               </Link>
               <Link href="/#projects">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-xl">
                   Projects
                 </li>
               </Link>
               <Link href="/about">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-xl">
                   About
                 </li>
               </Link>
               {/* Medium blog here */}
               <Link href="/">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                <li onClick={() => setNav(false)} className="py-4 text-xl">
                   Blog
                 </li>
               </Link>
