@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import NavLogo from "../public/assets/navLogo.png";
+import NavLogo from "../public/assets/navLogo.PNG";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
