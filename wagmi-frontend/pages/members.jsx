@@ -8,7 +8,7 @@ const members = () => {
   return (
     <div className="w-full p-2 py-40">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-[#5651e5]">
+        <p className="text-xl tracking-widest uppercase text-[#ffbd59]">
           Active Members
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
