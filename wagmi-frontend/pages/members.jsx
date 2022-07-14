@@ -1,5 +1,5 @@
 import React from "react";
-import ActiveMembers from "../components/ActiveMembers";
+import MembersItem from "../components/MembersItem";
 
 // Member image imports
 import mikeBivens from "../public/members/MikeBivens.png";
@@ -12,7 +12,7 @@ const members = () => {
           Active Members
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          <ActiveMembers
+          <MembersItem
             name="Mike Bivens"
             pfp={mikeBivens}
             twitter="https://twitter.com/MSBivens_"
