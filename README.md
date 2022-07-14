@@ -56,7 +56,7 @@
 
 ## About The Project
 
-![Product Name Screen Shot](product-screenshot.png)
+![Main Section Screen Shot](product-screenshot.PNG)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
