@@ -48,8 +48,10 @@ const Navbar = () => {
                 Projects
               </li>
             </Link>
-            <Link href="/about">
-              <li className="ml-10 text-xl uppercase hover:border-b">About</li>
+            <Link href="/members">
+              <li className="ml-10 text-xl uppercase hover:border-b">
+                Members
+              </li>
             </Link>
             {/* Medium blog here */}
             <Link href="/">
@@ -105,9 +107,9 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/about">
+              <Link href="/members">
                 <li onClick={() => setNav(false)} className="py-4 text-xl">
-                  About
+                  Members
                 </li>
               </Link>
               {/* Medium blog here */}
