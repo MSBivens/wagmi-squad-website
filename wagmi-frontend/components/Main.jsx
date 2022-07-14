@@ -15,8 +15,8 @@ const Main = () => {
           <p className="py-2 text-gray-600">
             WAGMI Squad is a group of developers that have banded together to
             rapidly develop projects, participate in hackathons, and share
-            resources. This group's active members are in pursuit of becoming
-            self-sufficient blockend devs.
+            resources. This group&#39;s active members are in pursuit of
+            becoming self-sufficient blockend devs.
           </p>
           <p className="py-2 text-gray-600">
             To learn more about the objectives and methods of the organization,
