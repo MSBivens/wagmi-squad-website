@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import Placeholder from "../public/projects/placeholder.PNG";
+import Placeholder from "../public/projects/placeholder.png";
 
 const Projects = () => {
   return (

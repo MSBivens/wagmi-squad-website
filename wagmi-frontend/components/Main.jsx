@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../public/assets/logo.PNG";
+import Logo from "../public/assets/logo.png";
 
 const Main = () => {
   return (
