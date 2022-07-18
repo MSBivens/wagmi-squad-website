@@ -3,6 +3,7 @@ import MembersItem from "../components/MembersItem";
 
 // Member image imports
 import mikeBivens from "../public/members/MikeBivens.png";
+import arjanDaalman from "../public/members/ArjanDaalman.png";
 
 const members = () => {
   return (
@@ -18,6 +19,12 @@ const members = () => {
             twitter="https://twitter.com/MSBivens_"
             linkedin="https://www.linkedin.com/in/msbivens/"
             github="https://github.com/MSBivens"
+          />
+          <MembersItem
+            name="Arjan Daalman"
+            pfp={arjanDaalman}
+            twitter="https://twitter.com/Ar_Daal"
+            github="https://github.com/daalmana"
           />
         </div>
       </div>
