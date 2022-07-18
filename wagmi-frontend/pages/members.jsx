@@ -3,7 +3,7 @@ import MembersItem from "../components/MembersItem";
 
 // Member image imports
 import mikeBivens from "../public/members/MikeBivens.png";
-import arjanDaalman from "../public/members/ArjanDaalman.png";
+import arjanDaalman from "../public/members/ArDaal.png";
 
 const members = () => {
   return (
